@@ -1,0 +1,6 @@
+https://github.com/tomquirk/linkedin-api/archive/refs/tags/v2.0.0.zip
+openai
+pandas
+discord
+pdfkit
+jinja2

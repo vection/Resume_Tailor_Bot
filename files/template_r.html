@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .name {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            font-size: 16px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .info-label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .info-value {
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .section-item {
+            margin-bottom: 20px;
+        }
+        .item-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .item-subtitle {
+            font-size: 16px;
+            font-weight: normal;
+            margin-bottom: 5px;
+        }
+        .date {
+            font-style: italic;
+            color: #777;
+        }
+        .skills {
+            margin-top: 10px;
+        }
+        .skills ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .skills li {
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            padding: 8px 12px;
+            border-radius: 4px;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        .contact-row {
+            display: flex;
+            justify-content: center;
+        }
+        .contact-row > div {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="name">{{ data.Name }}</h1>
+            <div class="contact-info">
+                <div class="contact-row">
+                    <div>
+                        <div class="info-label">Email:</div>
+                        <div class="info-value">{{ data.Contact_Info.Email }}</div>
+                    </div>
+                    <div>
+                        <div class="info-label">Phone number:</div>
+                        <div class="info-value">{{ data.Contact_Info['Phone Number'] }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Summary</h2>
+            <div class="section-item">
+                <p class="summary">{{ data.Summary }}</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            {% for education in data.Education %}
+            <div class="section-item">
+                <h3 class="item-title">{{ education.degree }}</h3>
+                <div class="item-subtitle">{{ education.university }}</div>
+                <div class="date">{{ education.dates }}</div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Experience</h2>
+            {% for experience in data.Experience %}
+            <div class="section-item">
+                <h3 class="item-title">{{ experience.title }}</h3>
+                <div class="item-subtitle">{{ experience['company name'] }}</div>
+                <div class="date">{{ experience.dates }}</div>
+                <div>{{ experience.description }}</div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills">
+                <ul>
+                    {% for skill in data.skills %}
+                    <li>{{ skill }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
