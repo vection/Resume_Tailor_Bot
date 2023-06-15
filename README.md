@@ -26,7 +26,7 @@ Before running the Job Genius Bot, make sure you have the following requirements
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/discord-job-alert-bot.git
+git clone https://github.com/vection/JobGenius.git
 
 
 2. Install the required dependencies:
