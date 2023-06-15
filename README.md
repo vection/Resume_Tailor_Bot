@@ -39,7 +39,7 @@ pip install -r requirements.txt
 - Set up your Discord bot token, LinkedIn credentials, and OpenAI API keys in the `config.ini` file.
 
 4. Run the bot:
-python main.py
+python bot.py
 
 **Note**: There is a Dockerfile provided if you prefer running the bot in a Docker container. Please be aware that Docker creates a separate environment, and files may be saved locally.
 
