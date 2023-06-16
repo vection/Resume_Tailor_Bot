@@ -12,7 +12,7 @@
 
 ## Overview
 
-The Job Genius Bot is a Discord bot designed to assist users in their job search process. It provides job alerts and offers custom resume generation based on user input and job descriptions. With this bot, users can streamline their job search, receive notifications for new job posts, and generate tailored resumes to match specific job requirements.
+The Job Genius Bot is a Discord bot designed to assist users in their job search process using advanced generative AI tools. It provides job alerts and offers custom resume generation based on user input and job descriptions. With this bot, users can streamline their job search, receive notifications for new job posts, and generate tailored resumes to match specific job requirements.
 
 ## Initial Requirements
 Before running the Job Genius Bot, make sure you have the following requirements in place:
