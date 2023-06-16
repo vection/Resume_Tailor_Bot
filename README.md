@@ -75,7 +75,7 @@ In the registration process, it is important to provide as much detail as possib
 - Interview question generation based on job descriptions.
 
 ## AI Configuration Settings
-- enhance_start: This setting determines whether the AI should enhance the original description of the resume. When set to True, the AI will attempt to improve the description of the candidate. The default value is False.
+- enhance_start: This setting determines whether the AI should enhance the candidate description. When set to True, the AI will attempt to improve the description of the candidate. The default value is False.
 
 - enhance_start_temperature: The temperature parameter controls the randomness of the AI's responses during the process of enhancing the user description. Higher values (e.g., 0.9) make the output more random, while lower values (e.g., 0.1) make it more deterministic. The default temperature for enhancing the start is set to 0.9.
 
