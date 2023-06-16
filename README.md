@@ -27,11 +27,11 @@ Before running the Job Genius Bot, make sure you have the following requirements
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/vection/JobGenius.git
+```git clone https://github.com/vection/JobGenius.git```
 
 
 2. Install the required dependencies:
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 **Note**: Make sure you have installed [wkhtmltopdf](https://wkhtmltopdf.org/).
 
