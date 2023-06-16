@@ -83,6 +83,15 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push your changes to your forked repository.
 5. Submit a pull request to the main repository.
 
+## Images
+<img src="https://github.com/vection/JobGenius/assets/28596354/c2a4324b-59d5-4546-9108-096c9c63c5e4" width=50% height=50%>
+<img src="https://github.com/vection/JobGenius/assets/28596354/83ff8f90-5b64-4b15-8cf6-bedc8d7cfa18" width=50% height=50%>
+<img src="https://github.com/vection/JobGenius/assets/28596354/579f7b19-b1db-4d5a-806c-7b91cb320eb4" width=50% height=50%>
+<img src="https://github.com/vection/JobGenius/assets/28596354/a3e5c71c-2022-4451-9b01-222a0fa69aad" width=50% height=50%>
+<img src="https://github.com/vection/JobGenius/assets/28596354/24304b65-ff3a-4c79-a8ff-9409d5380cfa" width=50% height=50%>
+<img src="https://github.com/vection/JobGenius/assets/28596354/a762d5c7-0eed-4da1-a7b4-2c46c40a3910" width=50% height=50%>
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
