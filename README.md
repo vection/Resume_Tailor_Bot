@@ -75,19 +75,19 @@ In the registration process, it is important to provide as much detail as possib
 - Interview question generation based on job descriptions.
 
 ## AI Configuration Settings
-- enhance_start: This setting determines whether the AI should enhance the candidate description. When set to True, the AI will attempt to improve the description of the candidate. The default value is False.
+- **enhance_start**: This setting determines whether the AI should enhance the candidate description. When set to True, the AI will attempt to improve the description of the candidate. The default value is False.
 
-- enhance_start_temperature: The temperature parameter controls the randomness of the AI's responses during the process of enhancing the user description. Higher values (e.g., 0.9) make the output more random, while lower values (e.g., 0.1) make it more deterministic. The default temperature for enhancing the start is set to 0.9.
+- **enhance_start_temperature**: The temperature parameter controls the randomness of the AI's responses during the process of enhancing the user description. Higher values (e.g., 0.9) make the output more random, while lower values (e.g., 0.1) make it more deterministic. The default temperature for enhancing the start is set to 0.9.
 
-- enhance_end: This setting determines whether the AI should enhance the experience and summary of the resume. When set to True, the AI will attempt to improve the concluding section of the generated better results. The default value is True.
+- **enhance_end**: This setting determines whether the AI should enhance the experience and summary of the resume. When set to True, the AI will attempt to improve the concluding section of the generated better results. The default value is True.
 
-- enhance_end_summary_temperature: The temperature parameter controls the randomness of the AI's responses during the process of enhancing the end of the summary section in the custom resume. The default temperature for enhancing the end of the summary is set to 0.9.
+- **enhance_end_summary_temperature**: The temperature parameter controls the randomness of the AI's responses during the process of enhancing the end of the summary section in the custom resume. The default temperature for enhancing the end of the summary is set to 0.9.
 
-- enhance_end_experience_temperature: The temperature parameter controls the randomness of the AI's responses during the process of enhancing the end of the experience section in the custom resume. The default temperature for enhancing the end of the experience is set to 0.9.
+- **enhance_end_experience_temperature**: The temperature parameter controls the randomness of the AI's responses during the process of enhancing the end of the experience section in the custom resume. The default temperature for enhancing the end of the experience is set to 0.9.
 
-- resume_generation_temperature: The temperature parameter controls the randomness of the AI's responses during the process of generating the custom resume tailored to job description. Higher values (e.g., 1.0) make the output more random, while lower values (e.g., 0.1) make it more deterministic. The default temperature for resume generation is set to 1.0.
+- **resume_generation_temperature**: The temperature parameter controls the randomness of the AI's responses during the process of generating the custom resume tailored to job description. Higher values (e.g., 1.0) make the output more random, while lower values (e.g., 0.1) make it more deterministic. The default temperature for resume generation is set to 1.0.
 
-- description_temperature: The temperature parameter controls the randomness of the AI's responses when extracting relevant qualities from the job description. Higher values (e.g., 0.9) make the output more random, while lower values (e.g., 0.1) make it more deterministic. The default temperature for description extraction is set to 0.9.
+- **description_temperature**: The temperature parameter controls the randomness of the AI's responses when extracting relevant qualities from the job description. Higher values (e.g., 0.9) make the output more random, while lower values (e.g., 0.1) make it more deterministic. The default temperature for description extraction is set to 0.9.
 
 ## Contributing
 
