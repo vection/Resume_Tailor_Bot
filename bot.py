@@ -100,7 +100,7 @@ async def on_message(message):
     """
     message.author.id = str(message.author.id)
     # if already registered user
-    if str(message.author.id) in users:
+    if message.author.id in users:
         user_stats = users[message.author.id]
         if user_stats['is_registered'] == 0 and len(user_stats['name']) == 0:
             user_stats['name'] = message.content
@@ -157,7 +157,7 @@ async def on_message(message):
             await message.channel.send('You are not registered')
             return
 
-        await message.channel.send(users[message.author.id])
+        await send_message(message, str(users[message.author.id]), 'User stats')
 
 
     elif message.content == '!register':
@@ -247,6 +247,7 @@ def load_users():
 
         print("Loaded! ", len(users.keys()))
     except:
+        users = {}
         pass
 
 
