@@ -27,7 +27,7 @@ Before running the bot, make sure you have the following requirements in place:
 ## Installation
 
 1. Clone the repository:
-```git clone https://github.com/vection/JobGenius.git```
+```git clone https://github.com/vection/ResumeTailor.git```
 
 
 2. Install the required dependencies:
