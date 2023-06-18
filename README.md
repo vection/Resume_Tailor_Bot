@@ -1,4 +1,4 @@
-# 🤖 Job Genius Bot
+# 🤖 Job Hunt Bot
 
 ## Table of Contents
 
@@ -13,10 +13,10 @@
 
 ## Overview
 
-The Job Genius Bot is a Discord bot designed to assist users in their job search process using advanced generative AI tools. It provides job alerts and offers custom resume generation based on user input and job descriptions. With this bot, users can streamline their job search, receive notifications for new job posts, and generate tailored resumes to match specific job requirements.
+The Job Hunt Bot is a Discord bot designed to assist users in their job search process using advanced generative AI tools. It provides job alerts and offers custom resume generation based on user input and job descriptions. With this bot, users can streamline their job search, receive notifications for new job posts, and generate tailored resumes to match specific job requirements.
 
 ## Initial Requirements
-Before running the Job Genius Bot, make sure you have the following requirements in place:
+Before running the Job Hunt Bot, make sure you have the following requirements in place:
 
 - **OpenAI API Key**: You need an OpenAI API key to utilize the AI-powered features of the bot, such as generating custom resumes and interview questions. You can obtain an API key by signing up for OpenAI services.
 
